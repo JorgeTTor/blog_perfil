@@ -43,7 +43,6 @@ header .header-icons-container .icons {
     margin-right: 50px;
 }
 
-
 header .icons span {
     color: white;
 }
@@ -52,7 +51,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90px;
-   
+ 
 }
 
 nav .nav-logo-container {
@@ -69,15 +68,12 @@ nav .profile-link {
 nav .nav-logo-container img {
     width: 220px;
     margin-top: 10px;
-
 }
 
 nav .profile-link a {
-
     color: black;
     border-bottom: 1px solid black;
 } 
-
 
 .home-main {
     display:grid;
@@ -119,3 +115,36 @@ nav .profile-link a {
     font-weight: 700;
     font-size: 1.2rem;
 }
+
+.blogs-main {
+    display: grid;
+}
+
+.blogs-news-container {
+    background-color: #ebebeb;
+    padding: 0 50px 40px;
+}
+
+.blogs-main-new {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-main-news-img-container {
+    grid-column: 1;
+}
+
+.blogs-news-img-container img {
+
+}
+
+.blogs-news-info-container {
+    grid-column: 2;
+}
+
+.blogs-news-info-container p {
+    margin-bottom: 35px;
+}
+
+.blogs-main-new
