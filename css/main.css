@@ -20,6 +20,12 @@ a{
     right: 0;
 }
 
+.grid-container {
+    max-width: 998px;
+    margin: 0 auto;
+
+}
+
 header {
     width: 100%;
     height: 140px;
@@ -169,7 +175,7 @@ nav .profile-link a {
 .blogs-post-container .post-container {
     display: inline-block;
     padding-left: 10px;
-    max-width: 330px;
+    max-width: 310px;
     margin-bottom: 50px;
 }
 .blogs-post-container .post-container p {
