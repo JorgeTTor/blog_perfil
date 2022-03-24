@@ -202,7 +202,7 @@ footer p {
 }
 
 .blogpost-img-container {
-   
+
     padding: 0 50px 40px;
 
 }
@@ -221,8 +221,40 @@ footer p {
     font-size: 2.5rem;
 }
 
+
 .blogpost-main-container h3 {
     border-bottom: 1px solid #cdd2da;
     padding-bottom: 20px;
     
+}
+
+
+/* Contact section */
+
+.contact-main-container {
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid #22272d;
+    padding-bottom: 5px;
+}
+
+.contact-main-container, .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;   
+}
+
+.contact-main-container img {
+    width: 100px;
 }
